@@ -1,0 +1,52 @@
+
+.phoneCard {
+    display: flex;
+    width: 100%;
+    background-color: #d8d8d8;
+    margin: 10px 0;
+    border-radius: inherit;
+    transition: .3s;
+}
+
+.phoneCard:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.102);
+
+}
+.divImg {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.divDetalles {
+    width: 100%;
+}
+
+.marca {
+    color: black;
+    text-decoration-line: none;
+    font-size: .7rem;
+    margin: 0 0;
+    background-color: bisque;
+}
+
+.details {
+    font-size: 1rem;
+}
+
+.checkbox {
+    width: 1.5rem;
+    border-radius: none;
+}
+
+.delete {
+    font-size: 2rem;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+}

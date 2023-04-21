@@ -1,0 +1,13 @@
+.carrito {
+    background-color: rgb(238, 238, 238);
+    width: 600px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 10px 5px rgb(217, 220, 242);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.pCompra {
+    margin-bottom: 25px;
+}

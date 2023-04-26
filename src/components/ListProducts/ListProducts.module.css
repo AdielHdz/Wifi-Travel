@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 30px;
 }
 
 .img {
@@ -26,6 +27,7 @@
 
 .divDetalles {
     width: 100%;
+
 }
 
 .marca {
@@ -38,6 +40,8 @@
 
 .details {
     font-size: 1rem;
+    text-align: left;
+    padding-left: 10%;
 }
 
 .checkbox {
@@ -49,4 +53,8 @@
     font-size: 2rem;
     margin: 10px 10px 0 0;
     cursor: pointer;
+}
+
+.carrito {
+    font-size: 2rem;
 }

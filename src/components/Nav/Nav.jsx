@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import style from "./Nav.module.css"
+import { AiOutlineShoppingCart } from "react-icons/ai"
+import { BsSearch } from "react-icons/bs"
+import { BiUser } from "react-icons/bi"
 const Nav = () => {
     return (
 
@@ -20,10 +23,10 @@ const Nav = () => {
                 <Link className={style.inicioSesion}>INICIO DE SESION</Link>
                 <span className={style.line}></span>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" alt="" className={style.img} />
-                <Link className={style.linkIcon}>$ USD</Link>
-                <Link className={style.linkIcon}>user</Link>
-                <Link className={style.linkIcon}>search</Link>
-                <Link className={style.linkIcon} to="/carrito" >carrito</Link>
+                <Link className={style.linkMoneda}>$ USD</Link>
+                <Link className={style.linkIcon}><BiUser/></Link>
+                <Link className={style.linkIcon}><BsSearch /></Link>
+                <Link className={style.linkIcon} to="/carrito" ><AiOutlineShoppingCart /></Link>
             </div>
         </nav>
         </div>

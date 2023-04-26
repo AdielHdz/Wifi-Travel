@@ -20,7 +20,7 @@ const ListProducts = (props) => {
             <div className={style.divDetalles}>
                 <Link to="/phoneDetail" className={style.marca}><h1>{marca}</h1></Link>
                 <p className={style.details}>Modelo: {modelo}</p>
-                <p className={style.details}>Lanzamiento: {año}</p>
+                <p className={style.details}>Año de lanzamiento: {año}</p>
                 <p className={style.details}>Precio: {precio}</p>
             </div>
             

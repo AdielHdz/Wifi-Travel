@@ -16,11 +16,11 @@ const Carousell = (props) => {
 
 
       return (
-        <div>
+        <div className={style.divCard}> 
              <h2 className={style.marca}> {marca} </h2> 
              <img src={img} alt={modelo} className={style.img} />
              <Link className={style.linkModelo} to={`/phoneDetails/${modelo}`} ><h2> {modelo} </h2> </Link>
-             <h2> {precio} </h2> 
+             <p className={style.precio}>Precio: {precio} </p> 
              <button className={style.button} name={modelo} onClick={addToCarComponent} >Añadir al carrito</button>
         </div>
       )

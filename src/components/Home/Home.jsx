@@ -6,7 +6,7 @@ import phones from "../../data"
 
 const Home = () => {
     return (
-        <div>
+        <div className={style.home}>
         
        
         

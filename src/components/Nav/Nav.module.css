@@ -1,9 +1,13 @@
 .nav {
+    width: 100%;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(233, 233, 233);
+    position: fixed;
+    background-color: #fff;
+    top: 0;
 }
 
 .linkTitle {
